@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/kingmcgregor"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/layout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/apologe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="buttonTapped"
+            android:text="Apologise"
+            app:layout_column="0"
+            app:layout_gravity="center"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/coffeebreak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:onClick="buttonTapped"
+            android:text="Coffee Break" />
+
+        <Button
+            android:id="@+id/sorrylate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Dont Give A Fuck"
+            app:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/pussy"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:onClick="buttonTapped"
+            android:text="Pussy"
+            app:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/nifitsa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:onClick="buttonTapped"
+            android:text="Weasel"
+            app:layout_gravity="center" />
+
+        <Button
+
+            android:id="@+id/whothefookis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:onClick="buttonTapped"
+            android:text="Who the fook "
+            app:layout_gravity="center" />
+
+
+        <Button
+            android:id="@+id/gods"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:onClick="buttonTapped"
+            android:text="Gods" />
+
+        <Button
+            android:id="@+id/mamama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonTapped"
+            android:text="MAMAMA" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/youlldonutting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:onClick="buttonTapped"
+
+            android:text="You do nutting" />
+
+        <Button
+            android:id="@+id/fookyou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:onClick="buttonTapped"
+            android:text="Fook You" />
+
+        <Button
+            android:id="@+id/danceformename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:onClick="buttonTapped"
+            android:text="Dance for me" />
+
+        <Button
+            android:id="@+id/imboxing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:onClick="buttonTapped"
+            android:text="Im boxing" />
+
+        <Button
+            android:id="@+id/irishgorila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:onClick="buttonTapped"
+            android:text="Irish Gorila" />
+
+        <Button
+            android:id="@+id/thekingisback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:onClick="buttonTapped"
+            android:text="The king is back" />
+
+        <Button
+            android:id="@+id/gotowar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:onClick="buttonTapped"
+            android:text="Go to war" />
+
+        <Button
+            android:id="@+id/thatsit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:onClick="buttonTapped"
+            android:text="That's It" />
+        -->
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
